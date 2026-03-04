@@ -1,1 +1,1 @@
-raise Exception("TEST")
+raise Exception("HELLO_TEST")
