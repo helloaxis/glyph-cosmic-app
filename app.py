@@ -304,12 +304,6 @@ def health():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port, debug=False)
-```
-
-### **2. requirements.txt**
-```
-Flask==3.0.0
-```
 
 ### **3. Procfile** (pentru Railway)
 ```
