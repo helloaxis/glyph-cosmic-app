@@ -1,11 +1,11 @@
 import os
 from flask import Flask
 
-app = Flask(name)
+app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return """
+    return "WORKING"
     <h2>Valentine Glyph</h2>
     <form action="/test">
         <input name="date1" placeholder="YYYY-MM-DD" required>
